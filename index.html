@@ -5,7 +5,241 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /* insert content from css.txt */
+        *, *:before, *:after {
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        [cite_start]} [cite: 54, 55]
+
+        body {
+        background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
+        font-size: 12px;
+        [cite_start]} [cite: 55, 56]
+
+        body, button, input {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        [cite_start]} [cite: 56, 57]
+
+        .background {
+        display: flex;
+        min-height: 100vh;
+        [cite_start]} [cite: 57, 58]
+
+        .container {
+        flex: 0 1 700px;
+        margin: auto;
+        padding: 10px;
+        [cite_start]} [cite: 58, 59]
+
+        .screen {
+        position: relative;
+        background: #3e3e3e;
+        border-radius: 15px;
+        [cite_start]} [cite: 59, 60]
+
+        .screen:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        right: 20px;
+        bottom: 0;
+        border-radius: 15px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+        z-index: -1;
+        [cite_start]} [cite: 60, 61, 62, 63]
+
+        .screen-header {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background: #4d4d4f;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        [cite_start]} [cite: 63, 64, 65]
+
+        .screen-header-left {
+        margin-right: auto;
+        [cite_start]} [cite: 65, 66]
+
+        .screen-header-button {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        margin-right: 3px;
+        border-radius: 8px;
+        background: white;
+        [cite_start]} [cite: 66, 67, 68]
+
+        .screen-header-button.close {
+        background: #ed1c6f;
+        [cite_start]} [cite: 68, 69]
+
+        .screen-header-button.maximize {
+        background: #e8e925;
+        [cite_start]} [cite: 69, 70]
+
+        .screen-header-button.minimize {
+        background: #74c54f;
+        [cite_start]} [cite: 70, 71]
+
+        .screen-header-right {
+        display: flex;
+        [cite_start]} [cite: 71, 72]
+
+        .screen-header-ellipsis {
+        width: 3px;
+        height: 3px;
+        margin-left: 2px;
+        border-radius: 8px;
+        background: #999;
+        [cite_start]} [cite: 72, 73]
+
+        .screen-body {
+        display: flex;
+        [cite_start]} [cite: 73, 74]
+
+        .screen-body-item {
+        flex: 1;
+        padding: 50px;
+        [cite_start]} [cite: 74, 75]
+
+        .screen-body-item.left {
+        display: flex;
+        flex-direction: column;
+        [cite_start]} [cite: 75, 76]
+
+        .app-title {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        color: #ea1d6f;
+        font-size: 26px;
+        [cite_start]} [cite: 76, 77]
+
+        .app-title:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        width: 25px;
+        height: 4px;
+        background: #ea1d6f;
+        [cite_start]} [cite: 77, 78, 79]
+
+        .app-contact {
+        margin-top: auto;
+        font-size: 8px;
+        color: #888;
+        [cite_start]} [cite: 79, 80]
+
+        .app-form-group {
+        margin-bottom: 15px;
+        [cite_start]} [cite: 80, 81]
+
+        .app-form-group.message {
+        margin-top: 40px;
+        [cite_start]} [cite: 81, 82]
+
+        .app-form-group.buttons {
+        margin-bottom: 0;
+        text-align: right;
+        [cite_start]} [cite: 82, 83]
+
+        .app-form-control {
+        width: 100%;
+        padding: 10px 0;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #666;
+        color: #ddd;
+        font-size: 14px;
+        text-transform: uppercase;
+        outline: none;
+        transition: border-color .2s;
+        [cite_start]} [cite: 83, 84, 85]
+
+        .app-form-control::placeholder {
+        color: #666;
+        [cite_start]} [cite: 85, 86]
+
+        .app-form-control:focus {
+        border-bottom-color: #ddd;
+        [cite_start]} [cite: 86, 87]
+
+        .app-form-button {
+        background: none;
+        border: none;
+        color: #ea1d6f;
+        font-size: 14px;
+        cursor: pointer;
+        outline: none;
+        [cite_start]} [cite: 87, 88, 89]
+
+        .app-form-button:hover {
+        color: #b9134f;
+        [cite_start]} [cite: 89, 90]
+
+        .credits {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        color: #ffa4bd;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        [cite_start]} [cite: 90, 91, 92]
+
+        .credits-link {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+        [cite_start]} [cite: 92, 93]
+
+        .dribbble {
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        [cite_start]} [cite: 93, 94]
+
+        @media screen and (max-width: 520px) {
+        .screen-body {
+            flex-direction: column;
+        [cite_start]} [cite: 94, 95]
+
+        .screen-body-item.left {
+            margin-bottom: 30px;
+        [cite_start]} [cite: 95, 96]
+
+        .app-title {
+            flex-direction: row;
+        [cite_start]} [cite: 96, 97]
+
+        .app-title span {
+            margin-right: 12px;
+        [cite_start]} [cite: 97, 98]
+
+        .app-title:after {
+            display: none;
+        [cite_start]} [cite: 98, 99]
+        }
+
+        @media screen and (max-width: 600px) {
+        .screen-body {
+            padding: 40px;
+        [cite_start]} [cite: 99, 100]
+
+        .screen-body-item {
+            padding: 0;
+        [cite_start]} [cite: 100, 101]
+        }
     </style>
 </head>
 <body>
